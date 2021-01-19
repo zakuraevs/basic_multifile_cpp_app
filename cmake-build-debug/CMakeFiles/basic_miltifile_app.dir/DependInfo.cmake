@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/main.cpp" "/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles/basic_miltifile_app.dir/main.cpp.o"
+  "/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/main.cpp" "/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o"
+  "/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/math_utils.cpp" "/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/basic_miltifile_app.dir/main.cpp.o"
+  "CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o"
+  "CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o"
   "basic_miltifile_app"
   "basic_miltifile_app.pdb"
 )

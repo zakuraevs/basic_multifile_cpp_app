@@ -94,12 +94,12 @@ clean: CMakeFiles/basic_miltifile_app.dir/clean
 CMakeFiles/basic_miltifile_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target basic_miltifile_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target basic_miltifile_app"
 .PHONY : CMakeFiles/basic_miltifile_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/basic_miltifile_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/basic_miltifile_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/basic_miltifile_app.dir/rule

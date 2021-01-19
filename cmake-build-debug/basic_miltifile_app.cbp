@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/main.cpp">
+		<Unit filename="/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/main.cpp">
+			<Option target="basic_miltifile_app"/>
+		</Unit>
+		<Unit filename="/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/math_utils.cpp">
+			<Option target="basic_miltifile_app"/>
+		</Unit>
+		<Unit filename="/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/math_utils.h">
 			<Option target="basic_miltifile_app"/>
 		</Unit>
 		<Unit filename="/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/CMakeLists.txt">

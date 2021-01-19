@@ -77,30 +77,45 @@ include CMakeFiles/basic_miltifile_app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/basic_miltifile_app.dir/flags.make
 
-CMakeFiles/basic_miltifile_app.dir/main.cpp.o: CMakeFiles/basic_miltifile_app.dir/flags.make
-CMakeFiles/basic_miltifile_app.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/basic_miltifile_app.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basic_miltifile_app.dir/main.cpp.o -c /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/main.cpp
+CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o: CMakeFiles/basic_miltifile_app.dir/flags.make
+CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o: ../math/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o -c /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/main.cpp
 
-CMakeFiles/basic_miltifile_app.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basic_miltifile_app.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/main.cpp > CMakeFiles/basic_miltifile_app.dir/main.cpp.i
+CMakeFiles/basic_miltifile_app.dir/math/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basic_miltifile_app.dir/math/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/main.cpp > CMakeFiles/basic_miltifile_app.dir/math/main.cpp.i
 
-CMakeFiles/basic_miltifile_app.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_miltifile_app.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/main.cpp -o CMakeFiles/basic_miltifile_app.dir/main.cpp.s
+CMakeFiles/basic_miltifile_app.dir/math/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_miltifile_app.dir/math/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/main.cpp -o CMakeFiles/basic_miltifile_app.dir/math/main.cpp.s
+
+CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o: CMakeFiles/basic_miltifile_app.dir/flags.make
+CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o: ../math/math_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o -c /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/math_utils.cpp
+
+CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/math_utils.cpp > CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.i
+
+CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/math/math_utils.cpp -o CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.s
 
 # Object files for target basic_miltifile_app
 basic_miltifile_app_OBJECTS = \
-"CMakeFiles/basic_miltifile_app.dir/main.cpp.o"
+"CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o" \
+"CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o"
 
 # External object files for target basic_miltifile_app
 basic_miltifile_app_EXTERNAL_OBJECTS =
 
-basic_miltifile_app: CMakeFiles/basic_miltifile_app.dir/main.cpp.o
+basic_miltifile_app: CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o
+basic_miltifile_app: CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o
 basic_miltifile_app: CMakeFiles/basic_miltifile_app.dir/build.make
 basic_miltifile_app: CMakeFiles/basic_miltifile_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable basic_miltifile_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zakuraevs/Desktop/Aalto/cs/c++/basic_miltifile_app/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable basic_miltifile_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/basic_miltifile_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

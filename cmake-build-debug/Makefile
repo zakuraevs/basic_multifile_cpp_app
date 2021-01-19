@@ -143,32 +143,59 @@ basic_miltifile_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/build
 .PHONY : basic_miltifile_app/fast
 
-main.o: main.cpp.o
+math/main.o: math/main.cpp.o
 
-.PHONY : main.o
+.PHONY : math/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/main.cpp.o
-.PHONY : main.cpp.o
+math/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/math/main.cpp.o
+.PHONY : math/main.cpp.o
 
-main.i: main.cpp.i
+math/main.i: math/main.cpp.i
 
-.PHONY : main.i
+.PHONY : math/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/main.cpp.i
-.PHONY : main.cpp.i
+math/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/math/main.cpp.i
+.PHONY : math/main.cpp.i
 
-main.s: main.cpp.s
+math/main.s: math/main.cpp.s
 
-.PHONY : main.s
+.PHONY : math/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/main.cpp.s
-.PHONY : main.cpp.s
+math/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/math/main.cpp.s
+.PHONY : math/main.cpp.s
+
+math/math_utils.o: math/math_utils.cpp.o
+
+.PHONY : math/math_utils.o
+
+# target to build an object file
+math/math_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.o
+.PHONY : math/math_utils.cpp.o
+
+math/math_utils.i: math/math_utils.cpp.i
+
+.PHONY : math/math_utils.i
+
+# target to preprocess a source file
+math/math_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.i
+.PHONY : math/math_utils.cpp.i
+
+math/math_utils.s: math/math_utils.cpp.s
+
+.PHONY : math/math_utils.s
+
+# target to generate assembly for a file
+math/math_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_miltifile_app.dir/build.make CMakeFiles/basic_miltifile_app.dir/math/math_utils.cpp.s
+.PHONY : math/math_utils.cpp.s
 
 # Help Target
 help:
@@ -179,9 +206,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... basic_miltifile_app"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... math/main.o"
+	@echo "... math/main.i"
+	@echo "... math/main.s"
+	@echo "... math/math_utils.o"
+	@echo "... math/math_utils.i"
+	@echo "... math/math_utils.s"
 .PHONY : help
 
 
