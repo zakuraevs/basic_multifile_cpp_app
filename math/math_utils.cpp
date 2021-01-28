@@ -1,6 +1,5 @@
 #include "math_utils.h"
 
-
 namespace utils {
 
     double area(double length, double width) {
@@ -22,5 +21,12 @@ namespace utils {
         }
         return total;
     }
+
+    /*template <typename T>
+    void swap(T &a, T &b) {
+        T temp = a;
+        a = b;
+        b = temp;
+    }*/
 
 }

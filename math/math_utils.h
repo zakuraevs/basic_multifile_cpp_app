@@ -16,7 +16,13 @@ namespace utils {
 
     double pow(double base, int pow = 2);
 
-}
+    template <typename T>
+    inline void swap(T &a, T &b) {
+        T temp = a;
+        a = b;
+        b = temp;
+    }
 
+}
 
 #endif //BASIC_MILTIFILE_APP_MATH_UTILS_H
