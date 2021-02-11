@@ -1,13 +1,7 @@
 #include <iostream>
 #include <string>
 #include "math_utils.h"
-
-/*template <typename T>
-void swap(T &a, T &b) {
-    T temp = a;
-    a = b;
-    b = temp;
-}*/
+#include "user.h"
 
 int main() {
 
@@ -17,6 +11,10 @@ int main() {
 
     std::string s1 = "s1";
     std::string s2 = "s2";
+
+    User sergey;
+
+    std::cout << sergey.first_name << std::endl;
 
     //std::cout << (a == 5 and b == 5) << std::endl;
     //std::cout << (a == 5 or c == 5) << std::endl;
